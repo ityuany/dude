@@ -1,0 +1,25 @@
+packages:
+  - "packages/*"
+
+catalog:
+  "@ai-sdk/amazon-bedrock": 5.0.145
+  "@ai-sdk/anthropic": 4.0.106
+  "@ai-sdk/azure": 4.0.129
+  "@ai-sdk/deepseek": 3.0.88
+  "@ai-sdk/gateway": 4.0.150
+  "@ai-sdk/google": 4.0.122
+  "@ai-sdk/google-vertex": 5.0.142
+  "@ai-sdk/groq": 4.0.85
+  "@ai-sdk/mistral": 4.0.88
+  "@ai-sdk/openai": 4.0.121
+  "@ai-sdk/openai-compatible": 3.0.93
+  "@ai-sdk/perplexity": 5.0.36
+  "@ai-sdk/xai": 5.0.47
+  "@rslib/core": 1.0.7
+  "@rstest/adapter-rslib": 0.12.6
+  "@rstest/core": 0.12.6
+  ai: 7.0.177
+  oxfmt: 0.79.0
+  oxlint: 1.94.0
+  typescript: 7.0.2
+  zod: 4.6.7

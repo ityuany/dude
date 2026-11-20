@@ -1,0 +1,46 @@
+{
+  "name": "@dudo/core",
+  "version": "0.0.0",
+  "private": true,
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "rslib build",
+    "dev": "rslib build --watch",
+    "test": "rstest run",
+    "test:watch": "rstest watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ai-sdk/amazon-bedrock": "catalog:",
+    "@ai-sdk/anthropic": "catalog:",
+    "@ai-sdk/azure": "catalog:",
+    "@ai-sdk/deepseek": "catalog:",
+    "@ai-sdk/gateway": "catalog:",
+    "@ai-sdk/google": "catalog:",
+    "@ai-sdk/google-vertex": "catalog:",
+    "@ai-sdk/groq": "catalog:",
+    "@ai-sdk/mistral": "catalog:",
+    "@ai-sdk/openai": "catalog:",
+    "@ai-sdk/openai-compatible": "catalog:",
+    "@ai-sdk/perplexity": "catalog:",
+    "@ai-sdk/xai": "catalog:",
+    "ai": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@rslib/core": "catalog:",
+    "@rstest/adapter-rslib": "catalog:",
+    "@rstest/core": "catalog:",
+    "typescript": "catalog:"
+  }
+}
