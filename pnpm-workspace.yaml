@@ -15,9 +15,11 @@ catalog:
   "@ai-sdk/openai-compatible": 3.0.93
   "@ai-sdk/perplexity": 5.0.36
   "@ai-sdk/xai": 5.0.47
+  "@ai-sdk/zai": 3.0.55
   "@rslib/core": 1.0.7
   "@rstest/adapter-rslib": 0.12.6
   "@rstest/core": 0.12.6
+  "@types/node": 26.6.6
   ai: 7.0.177
   oxfmt: 0.79.0
   oxlint: 1.94.0

@@ -23,3 +23,13 @@ pnpm build
 | `pnpm --filter @dudo/core test:watch` | 监听改动并运行 `core` 测试 |
 
 新子包放在 `packages/` 下。其他子包可以用 `"@dudo/core": "workspace:*"` 引用 `core`，构建产物位于 `packages/core/dist/`。
+
+## GLM 流式对话
+
+示例位于 `packages/core/src/demo.ts`，默认使用智谱 `glm-4.7-flash`。将 `packages/core/.env.example` 复制为 `packages/core/.env`，填入智谱 API 密钥。在仓库根目录运行：
+
+```sh
+pnpm --filter @dudo/core chat
+```
+
+每次输入一行并回车，回复会实时显示。同一次会话会保留对话上下文，按 `Ctrl+D` 退出。

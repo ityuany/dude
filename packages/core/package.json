@@ -15,6 +15,7 @@
   },
   "scripts": {
     "build": "rslib build",
+    "chat": "node --experimental-strip-types --env-file-if-exists=.env src/demo.ts",
     "dev": "rslib build --watch",
     "test": "rstest run",
     "test:watch": "rstest watch",
@@ -34,6 +35,7 @@
     "@ai-sdk/openai-compatible": "catalog:",
     "@ai-sdk/perplexity": "catalog:",
     "@ai-sdk/xai": "catalog:",
+    "@ai-sdk/zai": "catalog:",
     "ai": "catalog:",
     "zod": "catalog:"
   },
@@ -41,6 +43,7 @@
     "@rslib/core": "catalog:",
     "@rstest/adapter-rslib": "catalog:",
     "@rstest/core": "catalog:",
+    "@types/node": "catalog:",
     "typescript": "catalog:"
   }
 }
